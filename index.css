@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#root {
+
+}
+#root > .main > .home_page{
+  width: 100%;
+  height: 100vh;
+  background: url(https://static.zhihu.com/heifetz/assets/sign_bg.db29b0fb.png) #b8e5f8 no-repeat;
+  background-size: cover ;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+#root > .main > .home_page > .top_main{
+  min-height: 688px;
+  flex: 1 1;
+  display: flex;
+  border-radius: 2px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#root > .main > .home_page > .top_main > .top_main_logo {
+  width: 128px;
+  height: 81px;
+  margin-bottom: 24px;
+}
+#root > .main > .home_page > .top_main > .content {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(26,26,26,0.1);
+  border-radius: 2px;
+  background: #ffffff;
+}
+#root > .main > .home_page > .top_main > .content> .header{
+  position: relative;
+  padding: 0 24px 84px;
+}
+#root > .main > .home_page > .top_main > .content> .header > .tabs{
+  height: 60px;
+}
+#root > .main > .home_page > .top_main > .content> .header > .tabs{
+
+}
+#root > .main > .home_page > .top_main > .content> .header > .tabs > .tabs1{
+  height: 60px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 60px;
+  display: inline-block;
+  margin-right: 24px;
+}
+#root > .main > .home_page > .top_main > .content> .header > .tabs > .tabs1 > .blueLine{
+  width: 100%;
+  height: 3px;
+  background-color: #0084ff;
+
+}
+#root > .main > .home_page > .top_main > .content> .header > .tabs > .tabs2{
+  color: #444;
+  line-height: 60px;
+  height: 60px;
+  display: inline-block;
+}
+#root > .main > .home_page > .top_main > .content> .header > .tabs > .tabs3{
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#root > .main > .home_page > .top_main > .content> .header >  .account{
+  margin-top: 24px;
+  height: 49px;
+  box-align: center;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  box-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+#root > .main > .home_page > .top_main > .content> .header >  .account > .account1{
+
+}
+#root > .main > .home_page > .top_main > .content> .header >  .account > .account1 .account_button{
+  padding: 0;
+  margin: 0;
+  color: #8590a6;
+  height: 26px;
+  background: #fff;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+#root > .main > .home_page > .top_main > .content> .header >  .account > .account1 > .account_button > .Select-arrow{
+  margin-left: 8px;
+
+}
+.line{
+  width: 1px;
+  height: 22px;
+  margin: 0 12px;
+  background: #ebebeb;
+}
+.account2_input{
+  height: 48px;
+  line-height: 24px;
+  flex: 1 1;
+  padding: 0;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: inherit;
+  background: transparent;
+  border: none;
+  resize: none;
+  outline: none;
+}
+.flow{
+  position: relative;
+}
+.flow1{
+  border-bottom: 1px solid #ebebeb;
+}
+.flow1_input{
+  height: 48px;
+  border: none;
+  outline: none;
+  line-height: 24px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: inherit;
+  background: transparent;
+}
+input::placeholder{
+  color: #8590a6;
+}
+.flow2{
+  position: absolute;
+  padding: 4px 0;
+  top: 24px;
+  right: 0;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: #175199;
+}
+.login_option{
+  height: 20px;
+  margin-top: 12px;
+}
+.login_option1{
+  float: right;
+  border: none;
+  line-height: inherit;
+  background-color: transparent;
+  font-size: 14px;
+  color: #8590a6;
+  text-align: center;
+}
+.submit{
+  color: #fff;
+  background-color: #0084ff;
+  width: 100%;
+  margin-top: 30px;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+}
+.deal{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 24px;
+  color: grey;
+  font-size: 13px;
+
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.line2{
+  box-sizing: border-box;
+  border-top: 1px solid #EBEBEB;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.middle{
+  color: #8590a6;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.middle > span{
+
+}
+.middle1{
+  margin-left: 2px;
+
+}
+.middle1 > button{
+  font-size: 14px;
+  color: #8590a6;
+  align-items: center;
+  box-align: center;
+  display: inline-flex;
+  background-color: transparent;
+  border: none;
+}
+
+.btn1_svg ,.btn2_svg,.btn3_svg{
+  margin-right: 6px;
+}
+.middle1 > .btn1{
+  height: 60px;
+}
+.middle1 > .btn2{
+  margin-left: 22px;
+}
+.middle1 > .btn3{
+  margin-left: 22px;
+}
+.footer{
+  width: 352px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: #0084FF;
+  font-size: 15px;
+  padding: 0 24px;
+  background-color: #F6F6F6;
+}
+.footer1{
+  width: 176px;
+}
+.footer_svg{
+  margin-right: .5em;
+}
+.line3{
+  box-sizing: border-box;
+  height: 20px;
+  width: 1px;
+  background-color: #EBEBEB;
+}
+.footer2{
+  text-align: right;
+  width: 176px;
+}
+.footer_button{
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: unset;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
